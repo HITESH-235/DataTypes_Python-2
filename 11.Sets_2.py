@@ -1,6 +1,9 @@
+import time
+
 print( "\nHello World\n" )
+start = time.time()
 
-
+# ---------------------------------------------------------------------------------
 print( "BONUS FUNCTIONS AND METHODS :\n" )
 st1 = { 1 , 2 , 3 , 5 , 7 , 8 , 9 }
 st2 = { 1 , 2 , 4 , 5 , 6 , 8 , 9 , 10 }
@@ -10,6 +13,7 @@ dummy = st1.copy()
 print( "A. COPY() :" , dummy )
 
 print( "B. DIFFERENCE() (b/w st1 & st2) :" , st1.difference(st2) )
+# ---------------------------------------------------------------------------------
 
 dummy0 = st1.copy()
 dummy.add( 72 )
@@ -24,3 +28,7 @@ print( "D. ISDISJOINT() :" , st1.isdisjoint(st2) ) # false if st2 has any inters
 print( "E. ISSUBSET() :" , st3.issubset(st1) )
 print( "F. SYMMETRIC_DIFFERENCE :" , st1.symmetric_difference( st2 ) , "\n" ) # gives all different element which don't intersects
 # try "SYMMETRIC_DIFFERENCE_UPDATE()" in the same way as other updates suffixes functions
+# ---------------------------------------------------------------------------------
+
+end = time.time()
+print( "\nTIME TAKEN  =" , (end - start) , "\n" )
