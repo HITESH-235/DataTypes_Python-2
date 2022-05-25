@@ -64,5 +64,3 @@ for i in set1 :
         print( " " , i ) #prints each item
 
 print( "11.Is there banana in set1 ? :" , "banana" in set1 , "\n" )
-
-
