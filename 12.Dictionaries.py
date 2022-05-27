@@ -63,6 +63,13 @@ print( "\n13. POPITEM :" , newdict )
 
 del newdict["Rank"]
 print( "\n14. DEL :" , newdict )
+
+print( "15. GET :" , newdict.get( "Rank" , 1 ) ) 
+# if the key is present, then its own value would be returned
+# but if it is not present, it will return the specified value like above
+# and in case its not present, the neither the dict gets any item added
+# you may give just 1 argument if the key exists 
+print( "\n16. FINAL :" , newdict )
 # ---------------------------------------------------------------------------------
 
 end = time.time()
