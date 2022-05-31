@@ -65,7 +65,7 @@ print( "9. Array to Set :" , new_s1 )
 #ACCESSING ITEMS
 print("10.")
 for i in set1 :
-        print( " " , i ) #prints each item
+        print( "  " , i ) #prints each item
 
 print( "11.Is there banana in set1 ? :" , "banana" in set1 , "\n" )
 # ---------------------------------------------------------------------------------

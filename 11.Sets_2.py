@@ -18,7 +18,7 @@ print( "B. DIFFERENCE() (b/w st1 & st2) :" , st1.difference(st2) )
 dummy0 = st1.copy()
 dummy.add( 72 )
 dummy0.difference_update(dummy) # switches all items of dummy0 with the items that **dummy0 has but dummy doesn't**
-print( "C. DIFFERENCE_UPDATE() :" , st1 ) # since dummy0 has nothing more than dummy, so dummy0 is now empty, but -
+print( "C. DIFFERENCE_UPDATE() :" , dummy0 ) # since dummy0 has nothing more than dummy, so dummy0 is now empty, but -
 dummy1 = st1.copy()
 dummy.difference_update(dummy1) # situation reversed, now we know that dummy has 72 more than dummy1
 print( "                        " , dummy )
